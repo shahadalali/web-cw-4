@@ -2,12 +2,21 @@ body {
   /* المطلوب الأول هنا */
   text-align: center;
   background-size: cover;
+  background-image:url(./img/KuwaitCodesWallpaper.png);
+  font-family:cairo; 
+
 }
 
 /* المطلوب الثاني هنا */
 nav {
+display:flex;
+justify-content: center;
 }
 .nav-elements {
+  display :flex;
+  justify-content:space-between;
+  width: 250px;
+  
 }
 
 .card {
@@ -15,6 +24,8 @@ nav {
   width: 400px;
   height: 500px;
   background-color: white;
+  box-shadow:4px 10px;
+  border-radius: 12px;
 }
 
 img {
@@ -22,10 +33,16 @@ img {
   width: 120px;
   height: 120px;
   margin-top: 20px;
+  box-shadow:5px 10px;
+  border-radius: 12px;
 }
 
 .hobbies {
   /* المطلوب السادس هنا */
+  display:flex;
+  justify-content: center;
+
+  
 }
 
 .center {
